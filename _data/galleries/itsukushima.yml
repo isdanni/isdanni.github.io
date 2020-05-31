@@ -1,0 +1,33 @@
+picture_path: itsukushima
+preview:
+  filename: IMG_1776
+  original: IMG_1776.jpg
+  sizes:
+  - IMG_1776.jpg
+  thumbnail: IMG_1776.jpg
+pictures:
+- filename: IMG_1763
+  original: IMG_1763.jpg
+  sizes:
+  - IMG_1763.jpg
+  thumbnail: IMG_1763.jpg
+- filename: IMG_1785
+  original: IMG_1785.jpg
+  sizes:
+  - IMG_1785.jpg
+  thumbnail: IMG_1785.jpg
+- filename: IMG_1792
+  original: IMG_1792.jpg
+  sizes:
+  - IMG_1792.jpg
+  thumbnail: IMG_1792.jpg
+- filename: IMG_1781
+  original: IMG_1781.jpg
+  sizes:
+  - IMG_1781.jpg
+  thumbnail: IMG_1781.jpg
+- filename: IMG_1776
+  original: IMG_1776.jpg
+  sizes:
+  - IMG_1776.jpg
+  thumbnail: IMG_1776.jpg

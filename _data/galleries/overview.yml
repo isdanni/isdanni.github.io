@@ -1,0 +1,41 @@
+-
+ title: itsukushima
+ directory: itsukushima
+ preview:
+  filename: IMG_1785
+  original: IMG_1785.jpg
+  sizes:
+  - IMG_1785.jpg
+  thumbnail: IMG_1785.jpg
+-
+ title: nusa-penida
+ directory: nusa-penida
+ preview:
+  filename: IMG_9232
+  original: IMG_9232.jpg
+  sizes:
+  - IMG_9232.jpg
+  thumbnail: IMG_9232-min.jpg
+-
+ title: san-francisco
+ directory: san-francisco
+ preview:
+  filename: VS-2012-5948
+  original: VS-2012-5948-6000x4000.jpg
+  sizes:
+  - VS-2012-5948-2121x1414.jpg
+  - VS-2012-5948-2999x1999.jpg
+  - VS-2012-5948-4242x2828.jpg
+  thumbnail: VS-2012-5948-thumbnail.jpg
+-
+ title: ghent-light-festival
+ directory: ghent-light-festival
+ picture_path: ghent-light-festival/part1
+ preview:
+  filename: Lichtfestival-0058
+  original: Lichtfestival-0058-6000x4000.jpg
+  sizes:
+  - Lichtfestival-0058-2121x1414.jpg
+  - Lichtfestival-0058-2999x1999.jpg
+  - Lichtfestival-0058-4242x2828.jpg
+  thumbnail: Lichtfestival-0058-thumbnail.jpg

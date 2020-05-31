@@ -1,0 +1,18 @@
+picture_path: nusa-penida
+preview:
+  filename: IMG_9125
+  original: IMG_9125.jpg
+  sizes:
+  - IMG_9125.jpg
+  thumbnail: IMG_9125.jpg
+pictures:
+- filename: IMG_9224
+  original: IMG_9224.jpg
+  sizes:
+  - IMG_9224.jpg
+  thumbnail: IMG_9224.jpg
+- filename: IMG_9232
+  original: IMG_9232.jpg
+  sizes:
+  - IMG_9232.jpg
+  thumbnail: IMG_9232.jpg

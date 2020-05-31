@@ -1,0 +1,30 @@
+Danni:
+  name        : "Danni"
+  bio         : "Sometimes write stuff."
+  avatar      : "/assets/images/avatar.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:leedanni@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://thewhip.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+
+
+Hux:
+  name        : "Hux"
+  bio         : "Front Engineer."
+  avatar      : "/assets/images/avatar-hux.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:huxpro@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://huangxuan.me/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/huxpro"
