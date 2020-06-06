@@ -1,11 +1,9 @@
 ---
+toc: true
+toc_sticky: true
 layout: single
 title: "Linux System Administration: Configuration, Diagnostics && Management"
 author: "Danni"
-header-style: text
-toc: true
-toc_sticky: true
-lang: en
 tags:
   - Linux
   - OS
