@@ -85,17 +85,17 @@ To cope with such unfortunate design for unbounded data of many systems, we impl
 
 ### Data Processing Patterns
 
-#### Bounded Data
+- Bounded Data
 
 pretty straightforward, run the dataset through some data processing engine to get a strcutured dataset with greater inherent value;
 
-#### Unbounded Data
+- Unbounded Data
 
-##### Fixed windows
+- Fixed windows
 
 Most common way, repeatedly run a batch engine to process input data which is windowed into fixed-size windows(separate data source, sometimes called tumbling windows);
 
-##### Sessions
+- Sessions
 
 
 

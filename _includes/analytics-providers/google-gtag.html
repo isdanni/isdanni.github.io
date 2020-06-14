@@ -7,3 +7,16 @@
 
   gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
 </script>
+
+
+<!-- Note: plugin scripts must be included after the tracking snippet. -->
+<script src="https://ipmeta.io/plugin.js"></script>
+
+<script>
+   provideGtagPlugin({
+      apiKey: '42b6e100f44945007134b8169244a8d36e5c8f3ac12f36461223c1c491427ec4',
+      serviceProvider: 'dimension1',
+      networkDomain: 'dimension2',
+      networkType: 'dimension3',
+   });
+</script>

@@ -10,7 +10,7 @@ tags:
 
 Finally had the time to ~~almost~~ finish this book ;-)
 
-### Naming
+# Naming
 
 - Use descriptive and unambiguous names; 
 - Avoid misunderstanding; (e.g. Use `accountList` for a list of accounts unless it is the real list data type, otherwise `accounts` or `AccountGroup` would be better);
@@ -22,7 +22,7 @@ Finally had the time to ~~almost~~ finish this book ;-)
     - do not append prefix/postfix like `strings` or `str`, the compiler can distinguish them itself;
 - Replace [magic numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)) with named constants;
 
-### Function
+# Function
 
 - **small**;
 - Do **ONE** thing;
@@ -35,7 +35,7 @@ Finally had the time to ~~almost~~ finish this book ;-)
 - Use exception instead of error;
 - Goal: Eliminate duplicate functions;
 
-### Comments
+# Comments
 
 - **NOTE**: some comments might be outdated, or just simply wrong;
 - Do not comment on ill-formatted function, re-construct functions instead;
@@ -49,7 +49,7 @@ Finally had the time to ~~almost~~ finish this book ;-)
     - Don't use closing brace comments.
     - Don't comment out code;
 
-### Source code structure
+# Source code structure
 - Shorter file is easier to understand;
 - Use identation, even when the function only has one-line statement/empty;
 - Declare variables near their usage;
@@ -68,7 +68,7 @@ Finally had the time to ~~almost~~ finish this book ;-)
         - Learning test: Faster to understadn its usage;
         - Efficient way to know if the API function changes;
 
-### Object & Data Structures
+# Object & Data Structures
 
 - Avoid hybrid structures => half object half data;
 - Only do **one** thing;
@@ -79,7 +79,7 @@ Finally had the time to ~~almost~~ finish this book ;-)
 - Prefer non-static methods;
 - Better to implement many functions than passing many arguments into one function to select a behaviour;
 
-### Error handeling
+# Error handeling
 
 - Use exceptions instead of code;
 - Use **unchecked exceptions** => does not require try/catch or throw to compile => simplify the codes;
@@ -88,7 +88,7 @@ Finally had the time to ~~almost~~ finish this book ;-)
 - Do not pass `NULL`;
 - Define **Special Case Pattern**;
 
-### Tests
+# Tests
 
 - Keep the testing code clean like the production code; But different standard => Usually production code aims for performance but the testing code does not;
 - aim for higher test coverage;
@@ -96,25 +96,25 @@ Finally had the time to ~~almost~~ finish this book ;-)
 - **TDD**: First create test data, then test the ata, then verify the result;
 - **FIRST** rule: F(fast), I(Independent), R(Repeatable), S(Self-sufficient), T(Timely);
 
-### Code smells
+# Code smells
 
 > When to change the code? When the code has bad smeels;
 
 Here's a list:
 
-##### Comment
+## Comment
 
 - Unwanted information => e.g. change history;
 - Commented out code; => Just delete it;
 - Comment that is too obvious => comment should have information the code does not offer;
 - Outdated comment;
 
-##### Environment
+## Environment
 
 - How many steps to finish the structure => should be seperated into single oprations; 
 - How many steps to complete the tests;
 
-##### Functions
+## Functions
 
 - Dead function => never called;
 - Over-complicated;
@@ -122,21 +122,21 @@ Here's a list:
 - Return arguments;
 - Identification parameters;
 
-##### Parameters
+## Parameters
 
 - Does not follow standard naming principles;
 - Use all kinds of prefix/postfix;
 - Does not explain what it is used for;
 - ...
 
-##### Testing
+## Testing
 
 - Not enough coverage;
 - No coverage tools;
 - Neglect small tests;
 - Too slow;
 
-##### General
+## General
 
 1. Rogidity: difficult to change. A small change causes a cascade of subsequent changes;
 2. Fragility: breaks in many places due to a single change;
