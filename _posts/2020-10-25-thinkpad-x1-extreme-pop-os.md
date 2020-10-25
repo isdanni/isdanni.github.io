@@ -44,11 +44,12 @@ To write the image to the flash drive, we need to use [Etcher](https://www.balen
 
 ![etcher2](/assets/images/post/popos/etcher2.jpg) 
 
+It should take a few mintues to complete. After the write is finished, close the Etcher tab.
+
 ![etcher3](/assets/images/post/popos/etcher3.jpg) 
 
 ![etcher4](/assets/images/post/popos/etcher4.jpg) 
 
-It should take a few mintues to complete.
 
 # 2. Disable secure boot
 
@@ -90,7 +91,7 @@ After the keyboard, timezone, language and other easy configs, we can choose to 
 
 ### 4.1.1. Swap
 
-As shown at the bottom in the GParted menu, it is **OPTIONAL** to select a **swap** space. Normally, it is recommended to have double of the RAM size. But for mordern computers, especially those with large RAMS(up to 128 GB), this is not applicable anymore. Since my RAM is 32GB, I went with 6GB of swap. 
+As shown at the bottom in the GParted menu, it is **OPTIONAL** to select a **swap** space. Normally, it is recommended to have double of the RAM size. But for mordern computers, especially those with large RAMS(up to 128 GB), this is not applicable anymore. Since my RAM is 32GB, I went with **6GB** of swap. The file system is **linux-swap**.
 
 > Here is an interesting article disussing different options: [How Much Swap Should You Use in Linux?](https://itsfoss.com/swap-size/)
 
@@ -101,7 +102,7 @@ As shown at the bottom in the GParted menu, it is **OPTIONAL** to select a **swa
 
 ### 4.1.2. Boot
 
-I went with 1GB of `/boot` just to be safe. Usually at least 512MB should be enough.
+I went with **1GB** of `/boot` just to be safe. Usually at least 512MB should be enough. The file system is **fat32**.
 
 ![boot](/assets/images/post/popos/boot.jpg)
 
@@ -109,13 +110,13 @@ I went with 1GB of `/boot` just to be safe. Usually at least 512MB should be eno
 
 ### 4.1.3. Root
 
-Then we can directly the rest of the space for the root.
+Then we can directly the rest of the space for the root. The file system is **ext4**.
 
 ![root](/assets/images/post/popos/root.png)
 
 ![root_space](/assets/images/post/popos/root_space.png)
 
-Make sure every partition is correct, then select `Erase and Install`.
+Make sure every partition is correct, then select **Erase and Install**.
 
 ![erase_install.png](/assets/images/post/popos/erase_install.png) 
 
@@ -126,6 +127,8 @@ Then it should take 2 or 3 mins to finish installation. After it's finished, a p
 ![installing](/assets/images/post/popos/installing.png) 
 
 ![restart](/assets/images/post/popos/restart.png) 
+
+## Switching between Windows and Pop!_OS
 
 If everything is done correctly, the USB stick can be removed and each restart will boot into Pop!_OS directly. If you wish to use the Windows 10, again, press `F12` during restart when the red Lenovo sign shows up and choose the Win10 distro. 
 
