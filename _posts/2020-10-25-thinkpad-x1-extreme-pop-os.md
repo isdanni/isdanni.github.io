@@ -46,14 +46,12 @@ To write the image to the flash drive, we need to use [Etcher](https://www.balen
 
 It should take a few mintues to complete. After the write is finished, close the Etcher tab.
 
-![etcher3](/assets/images/post/popos/etcher3.jpg) 
-
 ![etcher4](/assets/images/post/popos/etcher4.jpg) 
 
 
 # 2. Disable secure boot
 
-Restart the computer, when the red Lenovo sign shows up in the screen, press `F12` to enter the boot menu(The key **varies** based on your laptop, please make sure you press the correct one). In the `Setup/Security` menu, disable `Secure Boot`.
+Restart the computer, when the red Lenovo sign shows up in the screen, press **F12** to enter the boot menu(The key **varies** based on your laptop, please make sure you press the correct one). In the **Setup/Security** menu, disable **Secure Boot**.
 
 ![secure_boot1](/assets/images/post/popos/secure_boot1.jpg) 
 
@@ -62,7 +60,7 @@ Restart the computer, when the red Lenovo sign shows up in the screen, press `F1
 
 # 3. Make partitions for Pop!_OS in the disk space
 
-Open the `Disk Management` in Windows, right click the NTFS partition(As you can see, mine still has around 900GB free space. And Disk 1 is the USB stick I wrote the Pop!_OS iso to) to `Shrink Volume`. Personally, I split the space in half: 500GB for Windows 10 and 500GB for Pop!_OS. But whatever you do, make sure back up the data before the operation and be very careful when messing around the disk space. 
+Open the **Disk Management** in Windows, right click the NTFS partition(As you can see, mine still has around 900GB free space. And Disk 1 is the USB stick I wrote the Pop!_OS iso to) to **Shrink Volume**. Personally, I split the space in half: 500GB for Windows 10 and 500GB for Pop!_OS. But whatever you do, make sure back up the data before the operation and be very careful when messing around the disk space. 
 
 ![disk_management](/assets/images/post/popos/disk_management.jpg) 
 
@@ -74,7 +72,7 @@ After the operation, the disk 0 looks like this:
 
 # 4. Boot from live USB
 
-Now we can start the installation. Restart the computer again, when the red sign shows up, press `F12` again, and choose the USB stick. There should be a short period of ugly black screen with white output looking like this:   
+Now we can start the installation. Restart the computer again, when the red sign shows up, press **F12** again, and choose the USB stick. There should be a short period of ugly black screen with white output looking like this:   
 
 ![black](/assets/images/post/popos/black.jpg) 
 
@@ -102,7 +100,7 @@ As shown at the bottom in the GParted menu, it is **OPTIONAL** to select a **swa
 
 ### 4.1.2. Boot
 
-I went with **1GB** of `/boot` just to be safe. Usually at least 512MB should be enough. The file system is **fat32**.
+I went with **1GB** of **/boot** just to be safe. Usually (at least) 512MB should be enough. The file system is **fat32**.
 
 ![boot](/assets/images/post/popos/boot.jpg)
 
@@ -110,7 +108,7 @@ I went with **1GB** of `/boot` just to be safe. Usually at least 512MB should be
 
 ### 4.1.3. Root
 
-Then we can directly the rest of the space for the root. The file system is **ext4**.
+Then we can directly allocate the rest of space for the **/root**. The file system is **ext4**.
 
 ![root](/assets/images/post/popos/root.png)
 
