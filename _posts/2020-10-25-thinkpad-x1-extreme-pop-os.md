@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ThinkPad X1 Extreme Gen 3: Dual Boot Pop!_OS 20.04 LTS(Nvidia vresion) with Windows 10"
+title: "ThinkPad X1 Extreme Gen 3: Dual Boot Pop!_OS 20.04 LTS(Nvidia version) with Windows 10"
 author: "Danni"
 toc: true
 toc_sticky: true
