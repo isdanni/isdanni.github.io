@@ -8,10 +8,13 @@ Danni:
       url: "mailto:leedanni@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://thewhip.com"
+      url: "https://isdanni.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/isdanni"
 
 
 Hux:
